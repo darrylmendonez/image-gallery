@@ -27,7 +27,7 @@ class Gallery extends Component {
             </div>
           ))}
         </section>
-        <button type="button" className="btn btn-outline-primary" onClick={loadMore}>Load more...</button>
+        {/* <button type="button" className="btn btn-outline-primary" onClick={loadMore}>Load more...</button> */}
         {/* modal */}
         <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div className="modal-dialog modal-lg" role="document">
