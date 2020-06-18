@@ -7,7 +7,7 @@ class Row extends Component {
       content.map(picture => {
         return (
           <div key={picture.id} className="col-md-4">
-            <img src={picture.thumbnail} alt="" onClick={() => handleClick(picture)}/>
+            <img className="img-thumbnail" src={picture.thumbnail} alt="" onClick={() => handleClick(picture)}/>
           </div>
         )
       })
